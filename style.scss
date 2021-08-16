@@ -1,0 +1,27 @@
+.calculator{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    .calculator__screen{
+    background-color: darkgray;
+    height:100px;
+    width: 300px;
+    display: flex;
+    }
+    .calculator__keyboard{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        height: 300px;
+        width: 300px;  
+    }
+    .btn--zero{
+        grid-column-start:1;
+        grid-column-end: 3;
+
+
+    }   
+}
